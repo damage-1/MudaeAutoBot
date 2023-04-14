@@ -6,10 +6,13 @@ import json
 import time
 import logging
 import threading
+import discord-components
 from os.path import join as pathjoin
 from discum.utils.slash import SlashCommander
 from discum.utils.button import Buttoner
 from collections import OrderedDict
+from discord_components import Button
+
 
 class CacheDict(OrderedDict):
     def __init__(self, *args, **kwds):
